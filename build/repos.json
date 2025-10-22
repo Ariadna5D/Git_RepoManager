@@ -1,0 +1,24 @@
+{
+  "repos": [
+    {
+      "name": "Nombre del repositorio 1",
+      "folder": "C:\\ruta\\al\\repositorio1"
+    },
+    {
+      "name": "Nombre del repositorio 2",
+      "folder": "C:\\ruta\\al\\repositorio2"
+    },
+    {
+      "name": "Nombre del repositorio 3",
+      "folder": "C:\\ruta\\al\\repositorio3"
+    },
+    {
+      "name": "Nombre del repositorio 4",
+      "folder": "C:\\ruta\\al\\repositorio4"
+    },
+    {
+      "name": "Nombre del repositorio 5",
+      "folder": "C:\\ruta\\al\\repositorio5"
+    }
+  ]
+}
