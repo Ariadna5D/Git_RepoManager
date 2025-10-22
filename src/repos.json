@@ -1,0 +1,24 @@
+{
+  "repos": [
+    {
+      "name": "Repository Name 1",
+      "folder": "C:\\file\\repository1"
+    },
+    {
+      "name": "Repository Name 2",
+      "folder": "C:\\file\\repository2"
+    },
+    {
+      "name": "Repository Name 3",
+      "folder": "C:\\file\\repository3"
+    },
+    {
+      "name": "Repository Name 4",
+      "folder": "C:\\file\\repository4"
+    },
+    {
+      "name": "Repository Name 5",
+      "folder": "C:\\file\\repository5"
+    }
+  ]
+}
