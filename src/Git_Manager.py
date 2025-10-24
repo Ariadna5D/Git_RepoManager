@@ -29,7 +29,7 @@ try:
         folder = repo['folder']
         subprocess.run(["git", '-C', folder, "add", "."])
         subprocess.run(["git", '-C', folder, "commit", "-m", message])
-        result = subprocess.run(["git", '-C', folder, "push"], capture_output=True, text=True)
+        result = subprocess.run(["git", '-C', folder, "push", "origin","main"], capture_output=True, text=True)
         print(result.stdout)
         print(f"----- COMMIT AND PUSH {repo['name']} COMPLETED -----")
 
@@ -40,7 +40,7 @@ try:
     """
     def git_pull(repo):
         folder = repo['folder']
-        result = subprocess.run(["git", '-C', folder, "pull"], capture_output=True, text=True)
+        result = subprocess.run(["git", '-C', folder, "pull","origin","main"], capture_output=True, text=True)
         print(result.stdout)
         print(f"----- PULL {repo['name']} COMPLETED -----")
 
