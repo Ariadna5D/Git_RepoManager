@@ -1,22 +1,23 @@
-# Git_RepoManager
+# Git RepoManager
 
-Git_RepoManager is a small Python application that allows you to easily do `git pull` and `git push` operations on multiple local repositories from a single menu.
+A simple Python application to manage multiple Git repositories from a single menu. Perfect for keeping your projects up to date across multiple devices!
 
-## Features
+## 🚀 Features
 
 - Pull updates from all or selected repositories at once.
 - Push changes (with commit message) to selected repositories.
 - Simple menu interface in the console.
 - Easy configuration using a JSON file.
+- Multiple languages support (in progress)
+- Push multiple repositories with different commits (in progress)
+- Add/remove repositories using the app (in progress)
+- Select and edit branches to push into them (in progress)
 
-## Usage
+## 🛠️ Configuration
 
-Run the main script: `/src/Git_Manager.py` or `/build/Git_Manager.exe`
+Edit the `repos.json` file to add your local repositories. Example:
 
-## Configuration
 
-Edit the `repos.json` file to add your local repositories.  
-Example:
 
 ```
 {
